@@ -498,7 +498,7 @@ div.team-photo.lazyloaded > img {
 }
 
 #about1 > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
-    overflow-y: scroll;
+    overflow-y: auto;
     overflow-x: hidden;
 
 }
