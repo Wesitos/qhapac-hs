@@ -73,7 +73,7 @@
                             map:{
                                 options:{
                                     center:[xs[selected_pin-1], ys[selected_pin-1]],
-                                    zoom: 15,
+                                    zoom: 12,
                                     mapTypeControl: false,
                                     styles: [
                                         {
@@ -97,7 +97,7 @@
                             map:{
                                 options:{
                                     center:[xs[selected_pin-1], ys[selected_pin-1]],
-                                    zoom: 15,
+                                    zoom: 12,
                                     mapTypeControl: false,
                                     styles: [
                                         {
