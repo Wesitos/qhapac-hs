@@ -29,7 +29,7 @@
         "url": "http://qhapaq-nan.org/chemin-supplante-par-la-route-au-cerro-arenas.html",
         "tit": "Sendero suplantado por carretera Cerro Arenas",
         "subti": "Cajamarca",
-        "body": "Probablemente corresponde a la forma rural de ruta Qhapaq Ãƒâ€˜an en la ladera norte del Cerro Arenas pavimento delimitado por un sendero de eucaliptos entre 6 a 8 metros, es suplantada por un camino que consiste en un terraplÃƒÂ©n de piedra compactada. Su trazado es recto. Este ejemplo es tÃƒÂ­pico de un tramo de carretera rural (camino de herradura) suplantado por una carretera. Fuente: InterpretaciÃƒÂ³n libre obtenida de ",
+        "body": "Probablemente corresponde a la forma rural de ruta Qhapaq Ñan en la ladera norte del Cerro Arenas pavimento delimitado por un sendero de eucaliptos entre 6 a 8 metros, es suplantada por un camino que consiste en un terraplen de piedra compactada. Su trazado es recto. Este ejemplo es tipico de un tramo de carretera rural (camino de herradura) suplantado por una carretera. Fuente: Interpretacion libre obtenida de ",
         "imgs": [
             "http://qhapaq-nan.org/images/stories/com_form2content/p1/f15/2.jpg",
             "http://qhapaq-nan.org/images/stories/com_form2content/p1/f15/22.jpg"
@@ -42,7 +42,7 @@
         "url": "http://qhapaq-nan.org/col-du-cerro-arenas.html",
         "tit": "Cuello del  Cerro Arenas",
         "subti": "Cajamarca",
-        "body": "Compruebe el cuello del Cerro Arenas por la vertiente norte. La calzada probablemente ha suplantado el camino rural correspondiente al antiguo cauce del Qhapaq Ãƒâ€˜an. En la foto, hay una casa con paredes pintadas (revestimiento de tierra y paja) y un tipo canal techo de tejas de arcilla cocida.  Fuente: InterpretaciÃƒÂ³n libre obtenida de  ",
+        "body": "Compruebe el cuello del Cerro Arenas por la vertiente norte. La calzada probablemente ha suplantado el camino rural correspondiente al antiguo cauce del Qhapaq Ñan. En la foto, hay una casa con paredes pintadas (revestimiento de tierra y paja) y un tipo canal techo de tejas de arcilla cocida.  Fuente: Interpretacion libre obtenida de  ",
         "imgs": [
             "http://qhapaq-nan.org/images/stories/com_form2content/p1/f16/2.jpg",
             "http://qhapaq-nan.org/images/stories/com_form2content/p1/f16/22.jpg"
@@ -55,7 +55,7 @@
         "url": "http://qhapaq-nan.org/col-du-cerro-arenas-et-del-tambo.html",
         "tit": "Cuello del Cerro Arenas y el Tambo",
         "subti": "Cajamarca",
-        "body": "Este tramo de camino de tierra, probablemente el antiguo cauce del Qhapaq Ãƒâ€˜an, estÃƒÂ¡  sustituido por un camino rural que es utilizado ocasionalmente  para los vehÃƒÂ­culos de carretera. En el fondo se puede ver la fÃƒÂ©rtil llanura de El Tambo.  Fuente: InterpretaciÃƒÂ³n libre obtenida de  ",
+        "body": "Este tramo de camino de tierra, probablemente el antiguo cauce del Qhapaq Ñan, estafa¡  sustituido por un camino rural que es utilizado ocasionalmente  para los vehiculos de carretera. En el fondo se puede ver la fertil llanura de El Tambo.  Fuente: Interpretacion libre obtenida de ",
         "imgs": [
             "http://qhapaq-nan.org/images/stories/com_form2content/p1/f26/2.jpg"
         ],
@@ -67,7 +67,7 @@
         "url": "http://qhapaq-nan.org/erosion-chemin-el-tambo.html",
         "tit": "Erosion del Camino hacia el Tambo",
         "subti": "Cajamarca",
-        "body": "Camino rural Antiguo en vÃƒÂ­as de desapariciÃƒÂ³n  daÃƒÂ±ado por el flujo de agua de lluvia  del rÃƒÂ­o El Tambo. No existe mamposterÃƒÂ­a visible. Esta secciÃƒÂ³n es, probablemente, el Qhapaq Ãƒâ€˜an que conecta la aldea a la laguna Sulluscocha  Fue abandonado a causa de la carretera que cruza la llanura de Llacanora.  Fuente: InterpretaciÃƒÂ³n libre obtenida de  ",
+        "body": "Camino rural Antiguo en vias de desaparicion  dañado por el flujo de agua de lluvia  del rio El Tambo. No existe mamposteria visible. Esta seccion es, probablemente, el Qhapaq Ñan que conecta la aldea a la laguna Sulluscocha  Fue abandonado a causa de la carretera que cruza la llanura de Llacanora.  Fuente: Interpretacion libre obtenida de ",
         "imgs": [
             "http://qhapaq-nan.org/images/stories/com_form2content/p1/f27/2.jpg",
             "http://qhapaq-nan.org/images/stories/com_form2content/p1/f27/22.jpg"
@@ -80,7 +80,7 @@
         "url": "http://qhapaq-nan.org/chemin-tambo-sulluscocha.html",
         "tit": "Ruta actual en condicion de abandono entre El Tambo y Sulluscocha",
         "subti": "Cajamarca",
-        "body": "Camino rural que desaparece entre El Tambo y la laguna Sulluscocha y probablemente correspondiente a la antigua ruta del Qhapaq Ãƒâ€˜an. Esta secciÃƒÂ³n estÃƒÂ¡ daÃƒÂ±ado por la erosiÃƒÂ³n de la lluvia, en parte abandonado debido a la competencia de la carretera pavimentada que conecta Llacanora El Tambo y la carretera de asfalto de Cajamarca a Namora, este Laguna Sulluscocha. TambiÃƒÂ©n podemos ver una joven plantaciÃƒÂ³n de eucaliptos. Fuente: InterpretaciÃƒÂ³n libre obtenida de  ",
+        "body": "Camino rural que desaparece entre El Tambo y la laguna Sulluscocha y probablemente correspondiente a la antigua ruta del Qhapaq Ñan. Esta seccion esta dañado por la erosion de la lluvia, en parte abandonado debido a la competencia de la carretera pavimentada que conecta Llacanora El Tambo y la carretera de asfalto de Cajamarca a Namora, este Laguna Sulluscocha. Tambien podemos ver una joven plantacion de eucaliptos. Fuente: Interpretacion libre obtenida de ",
         "imgs": [
             "http://qhapaq-nan.org/images/stories/com_form2content/p1/f31/2.jpg"
         ],
@@ -92,7 +92,7 @@
         "url": "http://qhapaq-nan.org/lagune-de-sulluscocha.html",
         "tit": "Laguna de Sulluscocha",
         "subti": "Cajamarca",
-        "body": "La laguna natural de Sulluscocha, permite la irrigacion continua de los cultivos y el desarrollo de una actividad ganadera (en este caso, un burro en una parte de los pastizales inundados). Distinguimos la presencia de coniferas (muy comunes en la region de Cajamarca, pero raras en otras partes del Peru), eucaliptos y carrizales. Fuente: Interpretacion libre obtenida de  ",
+        "body": "La laguna natural de Sulluscocha, permite la irrigacion continua de los cultivos y el desarrollo de una actividad ganadera (en este caso, un burro en una parte de los pastizales inundados). Distinguimos la presencia de coniferas (muy comunes en la region de Cajamarca, pero raras en otras partes del Peru), eucaliptos y carrizales. Fuente: Interpretacion libre obtenida de ",
         "imgs": [
             "http://qhapaq-nan.org/images/stories/com_form2content/p1/f32/2.jpg",
             "http://qhapaq-nan.org/images/stories/com_form2content/p1/f32/22.jpg"
@@ -105,7 +105,7 @@
         "url": "http://qhapaq-nan.org/erosion-du-qhapaq-nan.html",
         "tit": "Erosion del Qhapaq Ñan en Namora",
         "subti": "Cajamarca",
-        "body": "Suplantado por el camino asfaltado situado a unos cientos de metros, secciÃƒÂ³n Nan Qhapaq del valle que ha sido  abandonada por la comunidad. El resto de la ruta es erosionado por la lluvia, las inundaciones fluviales y los deslizamientos de tierra. Los pequeÃƒÂ±os puentes de madera son inestables o destruidos.  Fuente: InterpretaciÃƒÂ³n libre obtenida de ",
+        "body": "Suplantado por el camino asfaltado situado a unos cientos de metros de una seccion del Qhapaq Ñan del valle que ha sido  abandonada por la comunidad. El resto de la ruta es erosionado por la lluvia, las inundaciones fluviales y los deslizamientos de tierra. Los pequeños puentes de madera son inestables o destruidos.  Fuente: Interpretacion libre obtenida de ",
         "imgs": [
             "http://qhapaq-nan.org/images/stories/com_form2content/p1/f36/2.jpg",
             "http://qhapaq-nan.org/images/stories/com_form2content/p1/f36/22.jpg"
@@ -118,7 +118,7 @@
         "url": "http://qhapaq-nan.org/chemin-maguey-matara.html",
         "tit": "Camino alineado con el Maguey, cerca de Matara",
         "subti": "Cajamarca",
-        "body": "Camino rural rodeado de maguey y que corresponde probablemente a una secciÃƒÂ³n del Qhapaq Ãƒâ€˜an, tramos rectos de 3 a 5 metros,  tambiÃƒÂ©n estÃƒÂ¡ delimitado  por una hilera de piedra sobre su flanco izquierdo. Esta secciÃƒÂ³n tambiÃƒÂ©n sirve a los agricultores para el uso local.  Fuente: InterpretaciÃƒÂ³n libre obtenida de ",
+        "body": "Camino rural rodeado de maguey y que corresponde probablemente a una seccion del Qhapaq Ñan, tramos rectos de 3 a 5 metros,  tambien esta¡ delimitado  por una hilera de piedra sobre su flanco izquierdo. Esta seccion tambien sirve a los agricultores para el uso local. Fuente: Interpretacion libre obtenida de ",
         "imgs": [
             "http://qhapaq-nan.org/images/stories/com_form2content/p1/f49/2.jpg"
         ],
@@ -130,7 +130,7 @@
         "url": "http://qhapaq-nan.org/qhapaq-nan-a-cochamarca.html",
         "tit": "Camino antiguo en Cochamarca",
         "subti": "Cajamarca",
-        "body": "Vestigio de Qhapaq Nan: un ancho mÃƒÂ­nimo de 10-12 metros, el camino tambiÃƒÂ©n ha conservado su rectitud y sus fronteras  cubiertas de  plantas que consisten esencialmente de maguey. La disminuciÃƒÂ³n de ruta como un canal de comunicaciÃƒÂ³n es caracterÃƒÂ­stica aquÃƒÂ­. Transformado en un lugar de trÃƒÂ¡nsito para las personas locales que van a sus lugares de producciÃƒÂ³n,  pero subutilizada en gran medida.  Fuente: InterpretaciÃƒÂ³n libre obtenida de",
+        "body": "Vestigio de Qhapaq Nan: un ancho minimo de 10-12 metros, el camino tambien ha conservado su rectitud y sus fronteras  cubiertas de  plantas que consisten esencialmente de maguey. La disminucion de ruta como un canal de comunicacion es caracteristica aqui. Transformado en un lugar de transito para las personas locales que van a sus lugares de produccion, pero subutilizada en gran medida.  Fuente: Interpretacion libre obtenida de ",
         "imgs": [
             "http://qhapaq-nan.org/images/stories/com_form2content/p1/f62/2.jpg",
             "http://qhapaq-nan.org/images/stories/com_form2content/p1/f62/22.jpg",
@@ -144,7 +144,7 @@
         "url": "http://qhapaq-nan.org/chemin-cochamarca-san-marcos.html",
         "tit": "A mitad de Camino entre Cochamarca y  San Marcos",
         "subti": "Cajamarca",
-        "body": "Camino rural (camino de herradura), que probablemente ha suplantado Qhapaq Ñan,  de 4 a 6 metros, que ha conservado su rectitud y sus fronteras de vegetaciÃƒÂ³n (tierra, maguey y eucalipto). Esta secciÃƒÂ³n ya no conecta dos puntos de la carretera de asfalto en Matara - San Marcos, a travÃƒÂ©s de las zonas agrÃƒÂ­colas de la llanura y que constituye un acceso directo para los residentes. El uso es de moderado a bajo y se fotografiÃƒÂ³ el segmento aguas arriba.  Fuente: InterpretaciÃƒÂ³n libre obtenida de  ",
+        "body": "Camino rural (camino de herradura), que probablemente ha suplantado Qhapaq Ñan,  de 4 a 6 metros, que ha conservado su rectitud y sus fronteras de vegetacion (tierra, maguey y eucalipto). Esta seccion ya no conecta dos puntos de la carretera de asfalto en Matara - San Marcos, a traves de las zonas agricolas de la llanura y que constituye un acceso directo para los residentes. El uso es de moderado a bajo y se fotografia el segmento aguas arriba.  Fuente: Interpretacion libre obtenida de ",
         "imgs": [
             "http://qhapaq-nan.org/images/stories/com_form2content/p1/f68/2.jpg"
         ],
@@ -154,9 +154,9 @@
     {
         "id": 12,
         "url": "http://qhapaq-nan.org/qhapaq-nan-a-la-colmena.html",
-        "tit": "Qhapaq ÃƒÆ’Ã¢â‚¬Ëœan a la Colmena",
+        "tit": "Qhapaq Ñan, la Colmena",
         "subti": "Cajamarca",
-        "body": "Vestigio del Qhapaq Ãƒâ€˜an muy visible: largo de 8 a 10 metros, el recorrido ligeramente curvado, de baja a moderada pendiente. El suelo se destruye, dando paso a un suelo de piedra arrastrada por el clima y el paso de hombres y animales. El camino estÃƒÂ¡ bordeado por un muro de piedra apilada (albaÃƒÂ±ilerÃƒÂ­a \"enseco\", sin mortero). TambiÃƒÂ©n podemos ver los restos de un edificio con paredes de piedra (mortero de barro) y luego en el fondo, llano Chugur. Esta zona se compone de pequeÃƒÂ±as llanuras aisladas. El camino prehispÃƒÂ¡nico antiguo estÃƒÂ¡ aquÃƒÂ­ impugnada por la carretera asfaltada que cruza varias veces (en el lugar de la propia colmena, sino tambiÃƒÂ©n la Chugur llanura). Este tramo podrÃƒÂ­a servir a los agricultores de la zona visitando sus lugares de producciÃƒÂ³n o el transporte de sus animales para el mercado de ganado (Pecuaria) Semanal de San Marcos.  Fuente: InterpretaciÃƒÂ³n libre obtenida de  ",
+        "body": "Vestigio del Qhapaq Ñan muy visible: largo de 8 a 10 metros, el recorrido ligeramente curvado, de baja a moderada pendiente. El suelo se destruye, dando paso a un suelo de piedra arrastrada por el clima y el paso de hombres y animales. El camino esta bordeado por un muro de piedra apilada (albañileria \"enseco\", sin mortero). Tambien podemos ver los restos de un edificio con paredes de piedra (mortero de barro) y luego en el fondo, llano Chugur. Esta zona se compone de pequeñas llanuras aisladas. El camino prehispanico antiguo esta¡ aqui impugnada por la carretera asfaltada que cruza varias veces (en el lugar de la propia colmena, sino tambiÃƒÂ©n la Chugur llanura). Este tramo podra servir a los agricultores de la zona visitando sus lugares de produccion o el transporte de sus animales para el mercado de ganado (Pecuaria) Semanal de San Marcos.  Fuente: Interpretacion libre obtenida de ",
         "imgs": [
             "http://qhapaq-nan.org/images/stories/com_form2content/p1/f69/2.jpg"
         ],
@@ -168,7 +168,7 @@
         "url": "http://qhapaq-nan.org/riviere-huayobamba.html",
         "tit": "Rio  Huayobamba",
         "subti": "Cajamarca",
-        "body": "El rÃƒÂ­o Huayobamba corre a lo largo del lado Sur de  San Marcos. Es un afluente del San Marcos, que a su vez corre  unos cientos de metros al sur de su reuniÃƒÂ³n con CascasÃƒÂ©n, y finalmente la descarga, no muy lejos de allÃƒÂ­, en el rÃƒÂ­o de Cajamarca.  Fuente: InterpretaciÃƒÂ³n libre obtenida de  ",
+        "body": "El rio Huayobamba corre a lo largo del lado Sur de  San Marcos. Es un afluente del San Marcos, que a su vez corre  unos cientos de metros al sur de su reuniÃƒÂ³n con CascasÃƒÂ©n, y finalmente la descarga, no muy lejos de allÃƒÂ­, en el rÃƒÂ­o de Cajamarca.  Fuente: InterpretaciÃƒÂ³n libre obtenida de  ",
         "imgs": [
             "http://qhapaq-nan.org/images/stories/com_form2content/p1/f77/2.jpg"
         ],
@@ -190,9 +190,9 @@
     {
         "id": 15,
         "url": "http://qhapaq-nan.org/jonction-entre-le-qhapaq-nan-et-la-route.html",
-        "tit": "UniÃƒÂ³n entre el Qhapac Ãƒâ€˜an  y el camino actual",
+        "tit": "Union entre el Qhapac Ñan  y el camino actual",
         "subti": "Cajamarca",
-        "body": "UniÃƒÂ³n entre dos canales de comunicaciÃƒÂ³n en la entrada de la bajada a los Crisnejas fluviales: el camino de tierra, por un lado, zig-zag, y Qhapaq Ãƒâ€˜an por otra parte, en parte recta a lo largo de los lados de la montaÃƒÂ±a. La mamposterÃƒÂ­a de la carretera fue destruida, erosionada por la lluvia y el paso de hombres y animales, asÃƒÂ­ tambiÃƒÂ©n por la construcciÃƒÂ³n del terraplÃƒÂ©n de la carretera (terraplÃƒÂ©n de tierra y piedras). La disminuciÃƒÂ³n de este segmento como caracterÃƒÂ­stica canal de comunicaciÃƒÂ³n estÃƒÂ¡ aquÃƒÂ­. Es posible reconocer la forma en que la planta precolombina (maguey) a la izquierda. Con la excepciÃƒÂ³n de los residentes con sus mascotas o criadores para  ir a los mercados semanales en la regiÃƒÂ³n, su uso es casi nulo. Cabe seÃƒÂ±alar que la red elÃƒÂ©ctrica se construyÃƒÂ³ a lo largo de la ruta de la manera hispana.Este punto tambiÃƒÂ©n marca el lÃƒÂ­mite entre el bosque seco de la ladera de la montaÃƒÂ±a de Yunguilla y bosques de eucaliptos de las regiones templadas (altitud 2560 metros).  Fuente: InterpretaciÃƒÂ³n libre obtenida de  ",
+        "body": "UniÃƒÂ³n entre dos canales de comunicacion en la entrada de la bajada a los Crisnejas fluviales: el camino de tierra, por un lado, zig-zag, y Qhapaq Ãƒâ€˜an por otra parte, en parte recta a lo largo de los lados de la montaÃƒÂ±a. La mamposterÃƒÂ­a de la carretera fue destruida, erosionada por la lluvia y el paso de hombres y animales, asÃƒÂ­ tambiÃƒÂ©n por la construcciÃƒÂ³n del terraplÃƒÂ©n de la carretera (terraplÃƒÂ©n de tierra y piedras). La disminuciÃƒÂ³n de este segmento como caracterÃƒÂ­stica canal de comunicaciÃƒÂ³n estÃƒÂ¡ aquÃƒÂ­. Es posible reconocer la forma en que la planta precolombina (maguey) a la izquierda. Con la excepciÃƒÂ³n de los residentes con sus mascotas o criadores para  ir a los mercados semanales en la regiÃƒÂ³n, su uso es casi nulo. Cabe seÃƒÂ±alar que la red elÃƒÂ©ctrica se construyÃƒÂ³ a lo largo de la ruta de la manera hispana.Este punto tambiÃƒÂ©n marca el lÃƒÂ­mite entre el bosque seco de la ladera de la montaÃƒÂ±a de Yunguilla y bosques de eucaliptos de las regiones templadas (altitud 2560 metros).  Fuente: InterpretaciÃƒÂ³n libre obtenida de  ",
         "imgs": [
             "http://qhapaq-nan.org/images/stories/com_form2content/p1/f98/2.jpg"
         ],
@@ -202,7 +202,8 @@
     {
         "id": 16,
         "url": "http://qhapaq-nan.org/qhapaq-nan-dans-la-vallee-de-la-riviere-crisnejas.html",
-        "tit": "Camino en el valle del rÃƒÆ’Ã‚Â­o Crisnejas\"\"subti\": \"Cajamarca",
+        "tit": "Camino en el valle del rio Crisnejas",
+        "subti": "Cajamarca",
         "body": "Paisaje seco en el lado de Cerro Yunguilla  con  matorrales  tÃƒÂ­picos del valle del rÃƒÂ­o Crisnejas. Muy bajo y seco, que estÃƒÂ¡ a menos de 2500 metros. Estamos cerca del lÃƒÂ­mite inferior de los valles interandinos templados, por lo general se define en torno a 2.300 metros. El valle es muy fÃƒÂ©rtil debido a su riego permanente a travÃƒÂ©s del lecho del rÃƒÂ­o. En primer plano vemos una secciÃƒÂ³n del Qhapaq Ãƒâ€˜an sin mantenimiento y poco utilizado, que  se ha convirtido  en un camino de tierra a veces en la forma de un camino de grava dado que la manposterÃƒÂ­a ha sido destruida. Su trazado es curvilÃƒÂ­neo y meandros en zigzag cuando la pendiente de la montaÃƒÂ±a es demasiado alta.  Fuente: InterpretaciÃƒÂ³n libre obtenida de  ",
         "imgs": [
             "http://qhapaq-nan.org/images/stories/com_form2content/p1/f100/2.jpg",
@@ -215,7 +216,7 @@
     {
         "id": 17,
         "url": "http://qhapaq-nan.org/qhapaq-nan-avec-un-canal-devacuation.html",
-        "tit": "Qhapaq ÃƒÆ’Ã¢â‚¬Ëœan con un canal de descarga",
+        "tit": "Qhapaq Ñan con un canal de descarga",
         "subti": "Cajamarca",
         "body": "Qhapaq Nan transforma en un ancho camino rural de 5 a 7 metros y limitado por una frontera de vegetaciÃƒÂ³n y el suelo. La mamposterÃƒÂ­a de la carretera fue destruida, por la erosiÃƒÂ³n del clima y el paso de hombres y animales. Uno puede notar la presencia de un canal de descarga a travÃƒÂ©s del suelo de tierra. Esta secciÃƒÂ³n ya no es utilizada por los agricultores de trÃƒÂ¡nsito alrededor de Cauday  quienes visitan sus lugares de producciÃƒÂ³n, comercializaciÃƒÂ³n o en el hogar.  Fuente: InterpretaciÃƒÂ³n libre obtenida de ",
         "imgs": [
@@ -227,9 +228,9 @@
     {
         "id": 18,
         "url": "http://qhapaq-nan.org/escaliers-sur-le-qhapaq-nan.html",
-        "tit": "Escaleras del  Qhapaq ÃƒÆ’Ã¢â‚¬Ëœan",
+        "tit": "Escaleras del  Qhapaq Ñan",
         "subti": "Cajamarca",
-        "body": "Esta secciÃƒÂ³n corresponde a los andes centrales de  Qhapaq Nan transformado en camino rural con una anchura de aproximadamente 4 metros y limitada por una vegetaciÃƒÂ³n, la tierra y el maguey (derecha). La mamposterÃƒÂ­a de la carretera fue destruida en gran parte, pero todavÃƒÂ­a podemos ver las escaleras de piedra y suelo ligeramente elevada (arcilla y piedra) alineado con un lado bajo que tiene probablemente sido el mantenimiento periÃƒÂ³dico de la ribera. Esta secciÃƒÂ³n ya no es utilizada por los agricultores de trÃƒÂ¡nsito alrededor de Cauday cuando visitan sus lugares de producciÃƒÂ³n, comercializaciÃƒÂ³n o en el hogar.  Fuente: InterpretaciÃƒÂ³n libre obtenida de  ",
+        "body": "Esta seccion corresponde a los andes centrales de Qhapaq Ñan transformado en camino rural con una anchura de aproximadamente 4 metros y limitada por una vegetacion, la tierra y el maguey (derecha). La mamposterÃƒÂ­a de la carretera fue destruida en gran parte, pero todavia podemos ver las escaleras de piedra y suelo ligeramente elevada (arcilla y piedra) alineado con un lado bajo que tiene probablemente sido el mantenimiento periodico de la ribera. Esta seccion ya no es utilizada por los agricultores de transito alrededor de Cauday cuando visitan sus lugares de produccion, comercializacion o en el hogar.  Fuente: Interpretacion libre obtenida de ",
         "imgs": [
             "http://qhapaq-nan.org/images/stories/com_form2content/p1/f138/2.jpg"
         ],
@@ -239,9 +240,9 @@
     {
         "id": 19,
         "url": "http://qhapaq-nan.org/qhapaq-nan-entre-cauday-et-cajabamba.html",
-        "tit": "Qhapaq ÃƒÆ’Ã¢â‚¬Ëœan entre Cauday y Cajabamba",
+        "tit": "Qhapaq Ñan entre Cauday y Cajabamba",
         "subti": "Cajamarca",
-        "body": "Esta secciÃƒÂ³n del centro andino Qhapaq Ãƒâ€˜an se convirtiÃƒÂ³ en el camino rural  que  cruzar el valle de Quebrada Honda. Con una anchura de 2 a 4 metros, que estÃƒÂ¡ limitada por una vegetaciÃƒÂ³n, arcilla, piedra y maguey. Su trazado es curvilÃƒÂ­neo, con una moderada a fuerte pendiente. Escaleras de piedra de mamposterÃƒÂ­a se conservan a travÃƒÂ©s del mantenimiento de los residentes o las autoridades locales. Este segmento sirve principalmente el trÃƒÂ¡nsito de los agricultores de todo Cauday con sus animales, el camino de tierra estÃƒÂ¡ cerca. El paisaje aquÃƒÂ­ es tÃƒÂ­pico de los valles interandinos de clima templado, dedicadas a uso agrÃƒÂ­cola y en ÃƒÂ¡reas no cultivables del enfoque vaguadas a la arboricultura.  Fuente: InterpretaciÃƒÂ³n libre obtenida de ",
+        "body": "Esta seccion del centro andino Qhapaq Ñan se convirtio en el camino rural  que  cruzar el valle de Quebrada Honda. Con una anchura de 2 a 4 metros, que esta limitada por una vegetacion, arcilla, piedra y maguey. Su trazado es curvilineo, con una moderada a fuerte pendiente. Escaleras de piedra de mamposteria se conservan a traves del mantenimiento de los residentes o las autoridades locales. Este segmento sirve principalmente el transito de los agricultores de todo Cauday con sus animales, el camino de tierra esta cerca. El paisaje aqui es tipico de los valles interandinos de clima templado, dedicadas a uso agricola y en areas no cultivables del enfoque vaguadas a la arboricultura.  Fuente: Interpretacion libre obtenida de ",
         "imgs": [
             "http://qhapaq-nan.org/images/stories/com_form2content/p1/f139/2.jpg",
             "http://qhapaq-nan.org/images/stories/com_form2content/p1/f139/22.jpg"
