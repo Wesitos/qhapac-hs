@@ -8,6 +8,9 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="http://cssmapsplugin.com/4/jquery.cssmap.js"></script>
     <script type="text/javascript" src="js/HackSpace.js"></script>
+    <script src="http://fb.me/react-with-addons-0.12.0.js"></script>
+    <script src="http://fb.me/JSXTransformer-0.12.0.js"></script>
+    <script src="js/react-main.jsx" type="text/jsx"></script>
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
  <title>Qhapaq &Ntildean &amp; Hack Space</title>
  <!-- @font-face fonts -->
@@ -39,7 +42,7 @@
    <h1><a href="http://cssmapsplugin.com/south-america">Qhapaq &Ntildean</a></h1>
    <h2><abbr title="Cascading Style Sheets"></abbr> &amp; <b>  Hack Space</b></h2>
  </hgroup>
- 
+
  <nav class="AlturaMenu">
    <img class="pastor1" src="img/pastor.png">
  <!--
@@ -49,12 +52,9 @@
 </header>
 
   <section id="about1" class="section-block">
-    <!-- 
-      <h1 class="section-title">Mapa literario de LIMA<small>Nuestra literatura tiene un lugar. ¡Ven a conocerlos!</small></h1>
-    -->
     <div class="container">
       <!-- Contact Map -->
-      <div class="row">       
+      <div class="row">
         <div class="span4">
           <div id="flecha">
             <div id="flecha-left">
@@ -62,37 +62,11 @@
             <div id="flecha-right">
             </div>
           </div>
-          <div id="literatura0" class="data-literaria team">
-            <div id ="image-lit" class="team-photo lazyloaded">
-              <center><img class="img-lit" src="img/0.jpg" alt="" style="display: inline;"></center>
-            </div>
-            <div id="info-lit" class="team-info">
-              <center>
-                <span class="name">Qhapac Ñan</span>
-                <span class="role">Sistema Vial<br>Inca</span>
-              </center>
-            </div>
-            <div id="texto-lit" class="team-text">
-              <div class="sidebar-block">
-                <h3>Mapa de Datos Libres</h3>
-                Una version libre del Qhapac Ñan, construido en base a la información publicada sobre investigaciones del Qhapac Ñan en la web . 
-              </div>
-              <div class="sidebar-block"><br>
-                <h3>Asociación Hack Space Perú</h3>
-                Comprometidos con la educación tecnológica<br>
-                Hack Space UNI - Hack Space PUCP<br>
-                <br>
-                <a href="#">irina@hackspace.pe</a><br>
-                <a href="#">http://www.hackspace.pe</a>
-              </div>
-            </div>
+          <div id="pin_data" class="span4">
+
           </div>
-
-
-
-        </div>  
         <div class="span8">
-          
+
           <div id="map-lima" class="google-maps"></div>
         </div>
       </div>
@@ -159,9 +133,9 @@
     <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.11.0.js"><\/script>')</script>
     <script src="assets/js/vendor/bootstrap.min.js"></script>
 
-    
+
   <!-- Plugins -->
-  
+
   <script src="assets/plugins/fitvids/jquery.fitvids.min.js"></script>
   <script src="assets/plugins/isotope/jquery.isotope.min.js"></script>
   <script src="assets/plugins/magnificpopup/jquery.magnific-popup.min.js"></script>
@@ -182,7 +156,7 @@
   <!-- Template Script -->
   <script src="assets/js/leviate.plugins.js"></script>
   <script src="assets/js/leviate.parallax.js"></script>
-  <script src="assets/js/leviate.js"></script>  
+  <script src="assets/js/leviate.js"></script>
 
 
   <script src="assets/js/jquery.imageLens.js" type="text/javascript"></script>
