@@ -16,136 +16,17 @@
        ============================================================================= */
     $('html').toggleClass( 'handheld', $.isHandheld );
     var pagliteraria="";
-
-    var datlit=[
-        0,
-        {
-            pageid:'#literatura1',
-            poptool:"<h5></h5",
-            bodytxt:""
-        },
-        {
-            pageid:'#literatura2',
-            poptool:"<h5></h5",
-            bodytxt:""
-        },
-        {
-            pageid:'#literatura3',
-            poptool:"<h5></h5>",
-            bodytxt:""
-        },
-        {
-            pageid:'#literatura4',
-            poptool:"<h5></h5>",
-            bodytxt:""
-        },
-        {
-            pageid:'#literatura5',
-            poptool:"<h5></h5>",
-            bodytxt:""
-        },
-        {
-            pageid:'#literatura6',
-            poptool:"<h5></h5>",
-            bodytxt:""
-        },
-        {
-            pageid:'#literatura7',
-            poptool:"<h5></h5>",
-            bodytxt:""
-        },
-        {
-            pageid:'#literatura8',
-            poptool:"<h5></h5>",
-            bodytxt:""
-        },
-        {
-            pageid:'#literatura9',
-            poptool:"<h5></h5>",
-            bodytxt:""
-        },
-        {
-            pageid:'#literatura10',
-            poptool:"<h5></h5>",
-            bodytxt:""
-        },
-        {
-            pageid:'#literatura11',
-            poptool:"<h5></h5>",
-            bodytxt:""
-        },
-        {
-            pageid:'#literatura12',
-            poptool:"<h5></h5>",
-            bodytxt:""
-        },
-        {
-            pageid:'#literatura13',
-            poptool:"<h5></h5>",
-            bodytxt:""
-        },
-        {
-            pageid:'#literatura14',
-            poptool:"<h5></h5>",
-            bodytxt:""
-        },
-        {
-            pageid:'#literatura15',
-            poptool:"<h5></h5>",
-            bodytxt:""
-        },
-        {
-            pageid:'#literatura16',
-            poptool:"<h5></h5>",
-            bodytxt:""
-        },
-        {
-            pageid:'#literatura17',
-            poptool:"<h5></h5>",
-            bodytxt:""
-        },
-        {
-            pageid:'#literatura18',
-            poptool:"<h5></h5>",
-            bodytxt:""
-        },
-        {
-            pageid:'#literatura19',
-            poptool:"<h5></h5>",
-            bodytxt:""
-        },
-        {
-            pageid:'#literatura20',
-            poptool:"<h5></h5>",
-            bodytxt:""
-        },
-        {
-            pageid:'#literatura21',
-            poptool:"<h5></h5>",
-            bodytxt:""
+    var datlit = [0].concat( lista_data.slice(1).map( function(data){
+        return {
+            pageid: "#literatura"+data.id,
+            poptool: "<h5>"+ data.tit  + "<\h5>",
+            body_txt: data.subti
         }
-    ];
+    }));
     var icoco = "assets/img/road.png"
-    $(datlit[1].pageid).fadeOut();
-    $(datlit[2].pageid).fadeOut();
-    $(datlit[3].pageid).fadeOut();
-    $(datlit[4].pageid).fadeOut();
-    $(datlit[5].pageid).fadeOut();
-    $(datlit[6].pageid).fadeOut();
-    $(datlit[7].pageid).fadeOut();
-    $(datlit[8].pageid).fadeOut();
-    $(datlit[9].pageid).fadeOut();
-    $(datlit[10].pageid).fadeOut();
-    $(datlit[11].pageid).fadeOut();
-    $(datlit[12].pageid).fadeOut();
-    $(datlit[13].pageid).fadeOut();
-    $(datlit[15].pageid).fadeOut();
-    $(datlit[16].pageid).fadeOut();
-    $(datlit[17].pageid).fadeOut();
-    $(datlit[18].pageid).fadeOut();
-    $(datlit[19].pageid).fadeOut();
-    $(datlit[20].pageid).fadeOut();
-    $(datlit[21].pageid).fadeOut();
+    for (var k=1; k < lista_data.length; k++){
+        $(datlit[k].pageid).fadeOut();
+    };
 
     $(window).load(function() {
 
@@ -215,7 +96,7 @@
                             indc=xs.length;
                         } else
                         {indc = indc-1;}
-                         var options={
+                        var options={
                             map:{
                                 options:{
                                     center:[xs[indc-1], ys[indc-1]],
@@ -288,7 +169,7 @@
                                     },
                                     mouseover: function(marker, event, context){
                                         var map = $(this).gmap3("get"),
-                                            infowindow = $(this).gmap3({get:{name:"infowindow"}});
+                                        infowindow = $(this).gmap3({get:{name:"infowindow"}});
                                         if (infowindow){
                                             infowindow.open(map, marker);
                                             infowindow.setContent(datlit[context.data].poptool);
@@ -317,8 +198,8 @@
         }
 
         /*	--------------------------------------------------------------------
-         Flickr Widget
-         ------------------------------------------------------------------------ */
+                Flickr Widget
+                ------------------------------------------------------------------------ */
         if( $.fn.jflickrfeed ) {
             $( '.flickr-stream' ).each(function() {
                 var flickrId = $( this ).data( 'flickr-id' );
@@ -335,8 +216,8 @@
         }
 
         /* ==========================================================================
-         Twitter Feed
-         ============================================================================= */
+           Twitter Feed
+           ============================================================================= */
         if( $.fn.tweet ) {
             $( '.tweets' ).each(function() {
                 var username = $( this ).data( 'twitter-username' );
@@ -354,8 +235,8 @@
 
     $( document ).ready(function() {
         /* ==========================================================================
-         Define easeInOutExpo
-         ============================================================================= */
+           Define easeInOutExpo
+           ============================================================================= */
         $.extend($.easing, {
             easeInOutExpo: function (e, f, a, h, g) {
                 if(f == 0) {
@@ -373,8 +254,8 @@
 
 
         /* ==========================================================================
-         Responsive Nav
-         ============================================================================= */
+           Responsive Nav
+           ============================================================================= */
         (function() {
             if( typeof responsiveNav !== 'undefined' ) {
                 var nav = responsiveNav( '#zw-nav', {
@@ -393,8 +274,8 @@
 
 
         /* ==========================================================================
-         Affix
-         ============================================================================= */
+           Affix
+           ============================================================================= */
         $( '#zw-header' ).affix({
             offset: {
                 top: function() {
@@ -405,8 +286,8 @@
 
 
         /* ==========================================================================
-         Parallax Blocks
-         ============================================================================= */
+           Parallax Blocks
+           ============================================================================= */
 
         if( $.fn.parallax ) {
 
@@ -416,8 +297,8 @@
         }
 
         /* ==========================================================================
-         ScrollTo
-         ============================================================================= */
+           ScrollTo
+           ============================================================================= */
         if( $.fn.scrollTo ) {
             $( '#zw-nav, #zw-header .brand, .slider-block .slide-link' ).on( 'click', 'a[href^="#"]', function(e) {
                 var href = $( this ).attr( 'href' );
@@ -431,8 +312,8 @@
 
 
         /* ==========================================================================
-         Slider Setup
-         ============================================================================= */
+           Slider Setup
+           ============================================================================= */
         if( $.fn.cycle ) {
 
             $( '.slider-block .cycle-slider' ).cycle({
@@ -445,17 +326,17 @@
             }).on( 'cycle-before', function( e, hash, o, i, forward ) {
 
                 var distance = $( window ).width() * 2,
-                    oDistance = (forward? distance : -distance) + 'px',
-                    iDistance = (forward? -distance : distance) + 'px',
-                    oCaption = $( o ).find( '.caption-box' ),
-                    iCaption = $( i ).find( '.caption-box' ),
-                    animOpts = {
-                        'easing': 'easeInOutExpo',
-                        'duration': 1200,
-                        'complete': function() {
-                            $( this ).css( 'marginLeft', '' );
-                        }
-                    };
+                oDistance = (forward? distance : -distance) + 'px',
+                iDistance = (forward? -distance : distance) + 'px',
+                oCaption = $( o ).find( '.caption-box' ),
+                iCaption = $( i ).find( '.caption-box' ),
+                animOpts = {
+                    'easing': 'easeInOutExpo',
+                    'duration': 1200,
+                    'complete': function() {
+                        $( this ).css( 'marginLeft', '' );
+                    }
+                };
 
                 oCaption.stop( true, true ).animate({ 'marginLeft': oDistance }, animOpts );
                 iCaption.stop( true, true ).css( 'marginLeft', iDistance ).animate({ 'marginLeft': '0px' }, animOpts );
@@ -477,8 +358,8 @@
 
 
         /* ==========================================================================
-         Portfolio Setup
-         ============================================================================= */
+           Portfolio Setup
+           ============================================================================= */
         if( $.fn.isotope && $.fn.imagesLoaded ) {
 
             (function() {
@@ -601,8 +482,8 @@
         }
 
         /* ==========================================================================
-         LazyLoad Images
-         ============================================================================= */
+           LazyLoad Images
+           ============================================================================= */
         if( $.fn.lazyload ) {
 
             $( 'img[data-original]' ).lazyload({
@@ -614,31 +495,31 @@
         }
 
         /* ==========================================================================
-         FitVids Fluid Videos
-         ============================================================================= */
+           FitVids Fluid Videos
+           ============================================================================= */
         if( $.fn.fitVids ) {
             $( '.media' ).fitVids();
         }
 
 
         /* ==========================================================================
-         Placeholder Polyfill
-         ============================================================================= */
+           Placeholder Polyfill
+           ============================================================================= */
         if( $.fn.placeholder ) {
             $( 'input[placeholder], textarea[placeholder]' ).placeholder();
         }
 
         /* ==========================================================================
-         Tooltips
-         ============================================================================= */
+           Tooltips
+           ============================================================================= */
         if( $.fn.tooltip ) {
             $( '[rel="tooltip"]' ).tooltip();
         }
 
 
         /* ==========================================================================
-         Alert
-         ============================================================================= */
+           Alert
+           ============================================================================= */
         $( document ).on( 'click.alert', '.alert', function() {
             $( this ).animate({ 'opacity': 0 }, function() {
                 $( this ).slideUp( function() {
@@ -649,8 +530,8 @@
 
 
         /* ==========================================================================
-         Contact Form
-         ============================================================================= */
+           Contact Form
+           ============================================================================= */
         if( $.fn.validate && $.fn.ajaxSubmit ) {
 
             (function() {
@@ -686,6 +567,6 @@
 }) ( jQuery, window, document );
 
 /* ==========================================================================
- Modals
- ============================================================================= */
+   Modals
+   ============================================================================= */
 $('#myModal').modal(options)
