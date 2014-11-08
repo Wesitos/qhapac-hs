@@ -1,5 +1,4 @@
 La estructura de un documento kml es de la siguiente forma
-
 ``` xml
 <document>
   <Folder>
@@ -15,3 +14,7 @@ La estructura de un documento kml es de la siguiente forma
   	...
 </document>
 ```
+- name: Nombre del lugar
+- Descripcion: Html para mostrar
+- styleUrl: url del icono del pin
+- point: una coordenada
