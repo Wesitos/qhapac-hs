@@ -464,3 +464,30 @@ color:#fd0;
 	height: 50px;
 	width: 50px;
 }
+
+#flecha-right {
+
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid orange;
+    float: right;
+}
+
+#flecha-left {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right:10px solid orange;
+    float: left;
+}
+
+#flecha {
+    width: 370px;
+    height: 20px;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #e0e0e0;
+}
