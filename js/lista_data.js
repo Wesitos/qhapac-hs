@@ -7,9 +7,7 @@
         "body": "Mapa de Datos Libres Una version libre del Qhapac Ñan, construido en base a la información publicada sobre investigaciones del Qhapac Ñan en la web Asociación Hack Space Perú Comprometidos con la educación tecnológica Hack Space UNI - Hack Space PUCP",
         "imgs": [
             "img/0.jpg"
-        ],
-        "lat": -7.173431,
-        "lon": -78.434569
+        ]
     },
     {
         "id": 1,
