@@ -1,5 +1,11 @@
 (function( $, window, document, undefined ) {
-    
+    var raw_data =  $.ajax({
+        dataType: "json",
+        url: "js/lista_data.js",
+        async: false
+    }).responseText;
+
+    var lista_data = JSON.parse(raw_data);
     /* ==========================================================================
        Detect Handheld Devices
        ============================================================================= */
@@ -256,92 +262,13 @@
                                     }
                                 }
                             },marker:{
-                                values:[
-                                    {latLng:[-7.173431,-78.434569], 
-                                     data:1, 
-                                     options:{icon: icoco}
-                                    },
-                                    {latLng:[-7.181667,-78.403169], 
-                                     data:2, 
-                                     options:{icon: icoco}
-                                    },
-                                    {latLng:[-7.183425,-78.397964], 
-                                     data:3, 
-                                     options:{icon: icoco}
-                                    },
-                                    {latLng:[-7.183781,-78.396500], 
-                                     data:4, 
-                                     options:{icon: icoco}
-                                    },
-                                    {latLng:[-7.186367,-78.386133], 
-                                     data:5, 
-                                     options:{icon: icoco}
-                                    },
-                                    {latLng:[-7.186781,-78.384031], 
-                                     data:6, 
-                                     options:{icon: icoco}
-                                    },
-                                    {latLng:[-7.190331,-78.375569], 
-                                     data:7, 
-                                     options:{icon: icoco}
-                                    },
-                                    {latLng:[-7.192319,-78.358600], 
-                                     data:8, 
-                                     options:{icon: icoco}
-                                    },
-                                    {latLng:[-7.235253,-78.267569], 
-                                     data:9, 
-                                     options:{icon: icoco}
-                                    },
-                                    {latLng:[-7.264219,-78.223481], 
-                                     data:10, 
-                                     options:{icon: icoco}
-                                    },
-                                    {latLng:[-7.286892,-78.207936], 
-                                     data:11, 
-                                     options:{icon: icoco}
-                                    },
-                                    {latLng:[-7.296419,-78.206650], 
-                                     data:12, 
-                                     options:{icon: icoco}
-                                    },
-                                    {latLng:[-7.336703,-78.158850], 
-                                     data:13, 
-                                     options:{icon: icoco}
-                                    },
-                                    {latLng:[-7.352350,-78.143469], 
-                                     data:14, 
-                                     options:{icon: icoco}
-                                    },
-                                    {latLng:[-7.410431,-78.117231], 
-                                     data:15, 
-                                     options:{icon: icoco}
-                                    },
-                                    {latLng:[-7.423481,-78.113781], 
-                                     data:16, 
-                                     options:{icon: icoco}
-                                    },
-                                    {latLng:[-7.577114,-78.068303], 
-                                     data:17, 
-                                     options:{icon: icoco}
-                                    },
-                                    {latLng:[-7.578150,-78.067333], 
-                                     data:18, 
-                                     options:{icon: icoco}
-                                    },
-                                    {latLng:[-7.578633,-78.066583], 
-                                     data:19, 
-                                     options:{icon: icoco}
-                                    },
-                                    {latLng:[-7.646592,-78.034375], 
-                                     data:20, 
-                                     options:{icon: icoco}
-                                    },
-                                    {latLng:[-7.905250,-78.006050], 
-                                     data:21, 
-                                     options:{icon: icoco}
+                                values:lista_data.slice(1).map(function(data){
+                                    return {
+                                        latLng: [data.lat, data.lon],
+                                        data: data.id,
+                                        options:{icon:icoco}
                                     }
-                                ],
+                                }),
                                 options:{
                                     draggable: false
                                 },
