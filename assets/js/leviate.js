@@ -69,12 +69,6 @@
                     $('#flecha-right').click(function(){
                         $(datlit[selected_pin].pageid).fadeOut();
                         selected_pin = (selected_pin + 1) %xs.length;
-                        /*
-                          if(indc<xs.length){
-                            indc++;
-                        } else
-                        {indc=1;}
-                        */
                         var options={
                             map:{
                                 options:{
@@ -91,7 +85,6 @@
                                 }
                             }
                         }
-                        console.log("selected_pin", selected_pin);
                         $('.google-maps').gmap3( options );
                         $(datlit[selected_pin].pageid).fadeIn(1300);
                     });
@@ -100,12 +93,6 @@
                     $('#flecha-left').click(function(){
                         $(datlit[selected_pin].pageid).fadeOut();
                         selected_pin = (selected_pin - 1 ) % xs.length;
-                        /*
-                        if(indc===1){
-                            indc=xs.length;
-                        } else
-                        {indc = indc-1;}
-                        */
                         var options={
                             map:{
                                 options:{
@@ -122,7 +109,6 @@
                                 }
                             }
                         };
-                        console.log("selected_pin",selected_pin);
                         $('.google-maps').gmap3( options );
                         $(datlit[selected_pin].pageid).fadeIn(1300);
 
@@ -167,17 +153,11 @@
                                 },
                                 events:{
                                     click: function(marker, event, context){
-                                        console.log(context);
-                                        if(datlit[0]===0)
-                                            $('#literatura0').fadeOut(1);
-                                        datlit[0]=context.data;
-                                        for(var di=1;di<datlit.length;di++){
-                                            if(di===datlit[0]){
-                                                $(datlit[di].pageid).fadeIn(1300);
-                                            }else{
-                                                $(datlit[di].pageid).fadeOut(1);
-                                            }
-                                        }
+                                        // adiuu
+                                        $(datlit[selected_pin].pageid).fadeOut();
+                                        // holi
+                                        $(datlit[context.data].pageid).fadeIn(1300);
+                                        selected_pin = context.data;
                                     },
                                     mouseover: function(marker, event, context){
                                         var map = $(this).gmap3("get"),
