@@ -10,13 +10,13 @@
        Detect Handheld Devices
        ============================================================================= */
     $.isHandheld = (function (a) {return /(android|bb\d+|meego).+mobile|android|ipad|playbook|silk|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(a) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0, 4))})(navigator.userAgent || navigator.vendor || window.opera);
-    
+
     /* ==========================================================================
        Set Handheld class name for Mobile Browsers
        ============================================================================= */
     $('html').toggleClass( 'handheld', $.isHandheld );
     var pagliteraria="";
-    
+
     var datlit=[
         0,
         {
@@ -146,10 +146,10 @@
     $(datlit[19].pageid).fadeOut();
     $(datlit[20].pageid).fadeOut();
     $(datlit[21].pageid).fadeOut();
-    
+
     $(window).load(function() {
 
-        
+
         /* ==========================================================================
            ScrollSpy
            ============================================================================= */
@@ -157,17 +157,17 @@
             $( 'body' ).scrollspy({
                 target: '#zw-header'
             });
-            
+
             $( window ).on( 'smartresize orientationchange', function() {
                 $( 'body' ).scrollspy( 'refresh' );
             });
         }
-        
-        
+
+
         /* ==========================================================================
            Google Maps
            ============================================================================= */
-        
+
         if( $.fn.gmap3 ) {
             (function() {
                 var wf = document.createElement('script');
@@ -175,25 +175,25 @@
                 wf.type = 'text/javascript';
                 wf.async = 'true';
                 var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(wf, s);			
-                
+                s.parentNode.insertBefore(wf, s);
+
                 window.load_gmap = function() {
                     var xs = [-7.173431,-7.181667,-7.183425,-7.183781,-7.186367,-7.186781,-7.190331,-7.192319,-7.235253,-7.264219,-7.286892,-7.296419,-7.336703,-7.352350,-7.410431,-7.423481,-7.577114,-7.578150,-7.578633,-7.646592,-7.905250];
                     var ys=[-78.434569,-78.403169,-78.397964,-78.396500,-78.386133,-78.384031,-78.375569,-78.358600,-78.267569,-78.223481,-78.207936,-78.206650,-78.158850,-78.143469,-78.117231,-78.113781,-78.068303,-78.067333,-78.066583,-78.034375,-78.006050];
                     var idx= ys.length;
                     var indc=1;
-                    $('#flecha-right').click(function(){ 
+                    $('#flecha-right').click(function(){
 
                         if(indc<xs.length){
                             indc++;
                         } else
                         {indc=1;}
-                        var options={ 
+                        var options={
                             map:{
                                 options:{
                                     center:[xs[indc-1], ys[indc-1]],
-                                    zoom: 20,
-                                    mapTypeControl: false, 
+                                    zoom: 15,
+                                    mapTypeControl: false,
                                     styles: [
                                         {
                                             stylers: [
@@ -204,22 +204,23 @@
                                 }
                             }
                         }
+
                         $('.google-maps').gmap3( options );
                     });
 
 
                     $('#flecha-left').click(function(){
-                        
+
                         if(indc===1){
                             indc=xs.length;
                         } else
                         {indc = indc-1;}
-                         var options={ 
+                         var options={
                             map:{
                                 options:{
                                     center:[xs[indc-1], ys[indc-1]],
-                                    zoom: 20,
-                                    mapTypeControl: false, 
+                                    zoom: 15,
+                                    mapTypeControl: false,
                                     styles: [
                                         {
                                             stylers: [
@@ -231,10 +232,10 @@
                             }
                         }
                         $('.google-maps').gmap3( options );
-                   
-                             
+
+
                     } );
-                    
+
 
 
 
@@ -245,7 +246,7 @@
                                 options:{
                                     center:[-10.96083, -76.23509],
                                     zoom: 6,
-                                    mapTypeControl: false, 
+                                    mapTypeControl: false,
                                     styles: [
                                         {
                                             stylers: [
@@ -273,9 +274,9 @@
                                     draggable: false
                                 },
                                 events:{
-                                    click: function(marker, event, context){  
+                                    click: function(marker, event, context){
                                         if(datlit[0]===0)
-                                            $('#literatura0').fadeOut(1);                                       
+                                            $('#literatura0').fadeOut(1);
                                         datlit[0]=context.data;
                                         for(var di=1;di<datlit.length;di++){
                                             if(di===datlit[0]){
@@ -289,12 +290,12 @@
                                         var map = $(this).gmap3("get"),
                                             infowindow = $(this).gmap3({get:{name:"infowindow"}});
                                         if (infowindow){
-                                            infowindow.open(map, marker);                                                  
+                                            infowindow.open(map, marker);
                                             infowindow.setContent(datlit[context.data].poptool);
                                         } else {
                                             $(this).gmap3({
                                                 infowindow:{
-                                                    anchor:marker, 
+                                                    anchor:marker,
                                                     options:{content: datlit[context.data].poptool}
                                                 }
                                             });
@@ -314,7 +315,7 @@
                 }
             })();
         }
-        
+
         /*	--------------------------------------------------------------------
          Flickr Widget
          ------------------------------------------------------------------------ */
@@ -326,13 +327,13 @@
                     .prependTo( this ).jflickrfeed({
                         qstrings: {
                             id: flickrId
-                        }, 
-                        limit: limit, 
+                        },
+                        limit: limit,
                         itemTemplate: '<li><a href="{{link}}" title="{{title}}" target="_blank"><img src="{{image_s}}" alt="{{title}}" /></a></li>'
                     });
             });
         }
-        
+
         /* ==========================================================================
          Twitter Feed
          ============================================================================= */
@@ -341,16 +342,16 @@
                 var username = $( this ).data( 'twitter-username' );
                 var count = $( this ).data( 'count' ) || 1;
                 $( this ).tweet({
-                    username: username, 
-                    template: '{text}{time}', 
-                    count: count, 
+                    username: username,
+                    template: '{text}{time}',
+                    count: count,
                     loading_text: 'Loading Tweets...'
                 });
             });
         }
-        
+
     });
-    
+
     $( document ).ready(function() {
         /* ==========================================================================
          Define easeInOutExpo
@@ -369,19 +370,19 @@
                 return h / 2 * (-Math.pow(2, -10 * --f) + 2) + a
             }
         });
-        
-        
+
+
         /* ==========================================================================
          Responsive Nav
          ============================================================================= */
         (function() {
             if( typeof responsiveNav !== 'undefined' ) {
                 var nav = responsiveNav( '#zw-nav', {
-                    insert: 'before', 
-                    animate: !$.isHandheld, 
+                    insert: 'before',
+                    animate: !$.isHandheld,
                     label: '<span></span>'
                 });
-                
+
                 $( '#zw-nav' ).on( 'click', 'a', function() {
                     if( $( '#nav-toggle' ).is( ':visible' ) ) {
                         nav.toggle();
@@ -389,8 +390,8 @@
                 });
             }
         })();
-        
-        
+
+
         /* ==========================================================================
          Affix
          ============================================================================= */
@@ -401,19 +402,19 @@
                 }
             }
         });
-        
-        
+
+
         /* ==========================================================================
          Parallax Blocks
          ============================================================================= */
-        
+
         if( $.fn.parallax ) {
-            
+
             $( '.aside-block[data-background]' ).parallax({
                 enableParallax: !$.isHandheld
             });
         }
-        
+
         /* ==========================================================================
          ScrollTo
          ============================================================================= */
@@ -427,40 +428,40 @@
                 e.preventDefault();
             });
         }
-        
-        
+
+
         /* ==========================================================================
          Slider Setup
          ============================================================================= */
         if( $.fn.cycle ) {
-            
+
             $( '.slider-block .cycle-slider' ).cycle({
-                slides: '> .slide-wrap', 
-                fx: 'scrollHorz', 
-                speed: 1200, 
-                swipe: true, 
-                loader: 'wait', 
+                slides: '> .slide-wrap',
+                fx: 'scrollHorz',
+                speed: 1200,
+                swipe: true,
+                loader: 'wait',
                 easing: 'easeInOutExpo'
             }).on( 'cycle-before', function( e, hash, o, i, forward ) {
-                
-                var distance = $( window ).width() * 2, 
-                    oDistance = (forward? distance : -distance) + 'px', 
-                    iDistance = (forward? -distance : distance) + 'px', 
-                    oCaption = $( o ).find( '.caption-box' ), 
-                    iCaption = $( i ).find( '.caption-box' ), 
+
+                var distance = $( window ).width() * 2,
+                    oDistance = (forward? distance : -distance) + 'px',
+                    iDistance = (forward? -distance : distance) + 'px',
+                    oCaption = $( o ).find( '.caption-box' ),
+                    iCaption = $( i ).find( '.caption-box' ),
                     animOpts = {
-                        'easing': 'easeInOutExpo', 
-                        'duration': 1200, 
+                        'easing': 'easeInOutExpo',
+                        'duration': 1200,
                         'complete': function() {
                             $( this ).css( 'marginLeft', '' );
                         }
                     };
-                
+
                 oCaption.stop( true, true ).animate({ 'marginLeft': oDistance }, animOpts );
                 iCaption.stop( true, true ).css( 'marginLeft', iDistance ).animate({ 'marginLeft': '0px' }, animOpts );
             });
         }
-        
+
         /* Hacky Slider Height Fix - stupid IE! */
         if( $( 'html' ).hasClass( 'ie' ) ) {
             (function() {
@@ -473,18 +474,18 @@
                 $( window ).on( 'smartresize orientationchange', adjustSliderHeight );
             })();
         }
-        
-        
+
+
         /* ==========================================================================
          Portfolio Setup
          ============================================================================= */
         if( $.fn.isotope && $.fn.imagesLoaded ) {
-            
+
             (function() {
                 function createPopupContent( data ) {
-                    return '<div class="item-detail item-popup-block clearfix">' + 
-                        '<div class="item-media ' + (data.enableslider? 'cycle-slider' : '') + '">' + 
-                        (data.enableslider? '<div class="cycle-next"></div><div class="cycle-prev"></div>' : '') + 
+                    return '<div class="item-detail item-popup-block clearfix">' +
+                        '<div class="item-media ' + (data.enableslider? 'cycle-slider' : '') + '">' +
+                        (data.enableslider? '<div class="cycle-next"></div><div class="cycle-prev"></div>' : '') +
                         (data.media? $.map( data.media, function( media ) {
                             var result = '';
                             switch( media.type ) {
@@ -494,42 +495,42 @@
                             case 'video':
                                 result = media.embed;
                                 break;
-                            default: 
+                            default:
                                 break;
                             }
-                            
+
                             return '<div class="media">' + result + '</div>';
-                        }).join( '' ) : '') + 
-                        '</div>' + 
-                        '<div class="item-info">' + 
-                        '<h3 class="title">' + data.title + '</h3>' + 
-                        data.description + 
-                        '<a href="' + data.url + '" class="btn btn-primary view-work" target="_blank">View Work</a>' + 
-                        '</div>' + 
+                        }).join( '' ) : '') +
+                        '</div>' +
+                        '<div class="item-info">' +
+                        '<h3 class="title">' + data.title + '</h3>' +
+                        data.description +
+                        '<a href="' + data.url + '" class="btn btn-primary view-work" target="_blank">View Work</a>' +
+                        '</div>' +
                         '</div>';
                 }
-                
+
                 $( '.portfolio' ).each( function() {
-                    
+
                     // Cache Variables
                     $container = $( this ).find( '.items-wrap' );
                     $filter =  $( this ).find( '.filter' );
                     $filterActive = $( '<span class="active-label" data-toggle="dropdown"></span>' ).prependTo( $filter );
-                    
+
                     if( $filter.data( 'label' ) ) {
                         $filterActive.attr( 'data-label', $filter.data( 'label' ) );
                     }
-                    
+
                     $container.imagesLoaded(function() {
-                        
+
                         // Initialize Isotope
                         $( this ).isotope({
-                            itemSelector: '.item', 
+                            itemSelector: '.item',
                             masonry: {
                                 columnWidth: $container.width() / 12
                             }
                         });
-                        
+
                         // Handle Window Resize
                         $( window ).on( 'smartresize orientationchange', function() {
                             $container.isotope({
@@ -538,52 +539,52 @@
                                 }
                             });
                         });
-                        
+
                         // Handle Filtering
                         $filter.on( 'click', 'a', function( e ) {
-                            
+
                             $container.isotope({
                                 filter: $( this ).data( 'filter' )
                             });
                             $( this ).closest( 'li' ).addClass( 'active' ).siblings( 'li' ).removeClass( 'active' );
                             $( '.active-label', $filter ).text( $( this ).text() );
-                            
+
                             e.preventDefault();
                         });
-                        
+
                         $filter.find( 'li a[data-filter="*"]' ).parent().addClass( 'active' );
                         $filterActive.text( $filter.find( 'li a[data-filter="*"]' ).text() );
-                        
+
                         // Portfolio Popup
                         if( $.fn.magnificPopup ) {
                             $container.find( '.item .item-link' ).magnificPopup({
-                                type: 'ajax', 
+                                type: 'ajax',
                                 ajax: {
                                     settings: {
                                         cache: false
                                     }
-                                }, 
-                                alignTop: true, 
-                                overflowY: 'scroll', 
+                                },
+                                alignTop: true,
+                                overflowY: 'scroll',
                                 callbacks: {
                                     parseAjax: function( jqXHR ) {
                                         var response = $.parseJSON( jqXHR.responseText );
                                         jqXHR.responseText = createPopupContent( response );
-                                    }, 
+                                    },
                                     updateStatus: function( data ) {
                                         if( data.status === 'ready' ) {
                                             if( $.fn.fitVids ) {
                                                 $( this.contentContainer ).find( '.item-popup-block .media' ).fitVids();
                                             }
-                                            
+
                                             if( $.fn.cycle ) {
                                                 $( this.contentContainer ).find( '.item-media.cycle-slider' ).cycle({
-                                                    slides: '> .media', 
+                                                    slides: '> .media',
                                                     swipe: true
                                                 });
                                             }
                                         }
-                                    }, 
+                                    },
                                     close: function() {
                                         if( $.fn.cycle ) {
                                             $( this.contentContainer ).find( '.item-media.cycle-slider' ).cycle( 'destroy' );
@@ -592,49 +593,49 @@
                                 }
                             });
                         }
-                        
+
                     });
-                    
+
                 });
             })();
         }
-        
+
         /* ==========================================================================
          LazyLoad Images
          ============================================================================= */
         if( $.fn.lazyload ) {
-            
+
             $( 'img[data-original]' ).lazyload({
-                effect: 'fadeIn', 
+                effect: 'fadeIn',
                 load: function() {
                     $( this ).parent().addClass( 'lazyloaded' );
                 }
             });
         }
-        
+
         /* ==========================================================================
          FitVids Fluid Videos
          ============================================================================= */
         if( $.fn.fitVids ) {
             $( '.media' ).fitVids();
         }
-        
-        
+
+
         /* ==========================================================================
          Placeholder Polyfill
          ============================================================================= */
         if( $.fn.placeholder ) {
             $( 'input[placeholder], textarea[placeholder]' ).placeholder();
         }
-        
+
         /* ==========================================================================
          Tooltips
          ============================================================================= */
         if( $.fn.tooltip ) {
             $( '[rel="tooltip"]' ).tooltip();
         }
-        
-        
+
+
         /* ==========================================================================
          Alert
          ============================================================================= */
@@ -645,13 +646,13 @@
                 });
             });
         });
-        
-        
+
+
         /* ==========================================================================
          Contact Form
          ============================================================================= */
         if( $.fn.validate && $.fn.ajaxSubmit ) {
-            
+
             (function() {
                 $( '#contact-form' ).validate({
                     submitHandler: function( form ) {
@@ -662,26 +663,26 @@
                             if( !message.length ) {
                                 message = $( '<div class="alert"></div>' );
                             }
-                            
+
                             message
                                 .removeClass( 'alert-error alert-success alert-info' )
                                 .toggleClass( 'alert-error', !response.success )
                                 .toggleClass( 'alert-success', response.success )
                                 .html( response.message ).hide().prependTo( form ).slideDown();
-                            
+
                             if( response.success ) {
                                 $( form ).resetForm();
                             }
-                            
+
                             $( '.ajax-loader', form ).removeClass( 'visible' );
                         });
                     }
                 });
             })();
         }
-        
+
     });
-    
+
 }) ( jQuery, window, document );
 
 /* ==========================================================================
