@@ -2274,12 +2274,11 @@ only screen and (min-resolution: 2dppx) {
 }
 #texto-lit{
         height: 310px;
-        width: auto;
+        width: 80%;
         font-size:13px;
         line-height: 19px;
         text-align:left;
         padding: 20px 10px 0 20px;
-        overflow-y: scroll;
 }
 #texto-lit h3{
 	font-weight: bold;

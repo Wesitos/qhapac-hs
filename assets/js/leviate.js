@@ -15,12 +15,12 @@
         0,
         {
             pageid:'#literatura1',
-            poptool:"<h5>1. Estampas Mulatas<br><small>José Diez Canseco. El Gaviota.<br>Pasaje Olaya.</small></h5>",
+            poptool:"<h5></h5",
             bodytxt:""
         },
         {
             pageid:'#literatura2',
-            poptool:"<h5>2. Lucaninos en Lima<br><small>José María Arguedas. Yawar Fiesta.<br>Palacio de Gobierno</small></h5>",
+            poptool:"<h5></h5",
             bodytxt:""
         },
         {

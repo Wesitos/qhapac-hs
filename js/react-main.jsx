@@ -27,7 +27,8 @@ var PinData = React.createClass({
   },
   render: function(){
     return(
-      <div id={"literatura" + this.props.id} className="data-literaria team">
+      <div id={"literatura" + this.props.id} className="data-literaria team"
+           style={ {"display": (this.props.id==0?"":"None")}}>
         <div className="team-photo lazyloaded">
           <img src={this.props.imgs[0]} />
         </div>
@@ -116,7 +117,7 @@ var lista_hijos = [
   {
     "id": 5,
     "url": "http://qhapaq-nan.org/erosion-chemin-el-tambo.html",
-    "tit": "ErosiÃƒÆ’Ã‚Â³n del Camino hacia el Tambo",
+    "tit": "Erosion del Camino hacia el Tambo",
     "subti": "Cajamarca",
     "body": "Camino rural Antiguo en vÃƒÂ­as de desapariciÃƒÂ³n  daÃƒÂ±ado por el flujo de agua de lluvia  del rÃƒÂ­o El Tambo. No existe mamposterÃƒÂ­a visible. Esta secciÃƒÂ³n es, probablemente, el Qhapaq Ãƒâ€˜an que conecta la aldea a la laguna Sulluscocha  Fue abandonado a causa de la carretera que cruza la llanura de Llacanora.  Fuente: InterpretaciÃƒÂ³n libre obtenida de  ",
     "imgs": [
@@ -129,7 +130,7 @@ var lista_hijos = [
   {
     "id": 6,
     "url": "http://qhapaq-nan.org/chemin-tambo-sulluscocha.html",
-    "tit": "Ruta actual en condiciÃƒÆ’Ã‚Â³n de abandono entre El Tambo y Sulluscocha",
+    "tit": "Ruta actual en condicion de abandono entre El Tambo y Sulluscocha",
     "subti": "Cajamarca",
     "body": "Camino rural que desaparece entre El Tambo y la laguna Sulluscocha y probablemente correspondiente a la antigua ruta del Qhapaq Ãƒâ€˜an. Esta secciÃƒÂ³n estÃƒÂ¡ daÃƒÂ±ado por la erosiÃƒÂ³n de la lluvia, en parte abandonado debido a la competencia de la carretera pavimentada que conecta Llacanora El Tambo y la carretera de asfalto de Cajamarca a Namora, este Laguna Sulluscocha. TambiÃƒÂ©n podemos ver una joven plantaciÃƒÂ³n de eucaliptos. Fuente: InterpretaciÃƒÂ³n libre obtenida de  ",
     "imgs": [
@@ -143,7 +144,7 @@ var lista_hijos = [
     "url": "http://qhapaq-nan.org/lagune-de-sulluscocha.html",
     "tit": "Laguna de Sulluscocha",
     "subti": "Cajamarca",
-    "body": "La laguna natural de Sulluscocha, permite la irrigaciÃƒÂ³n continua de los cultivos y el desarrollo de una actividad ganadera (en este caso, un burro en una parte de los pastizales inundados). Distinguimos la presencia de conÃƒÂ­feras (muy comunes en la regiÃƒÂ³n de Cajamarca, pero raras en otras partes del PerÃƒÂº), eucaliptos y carrizales. Fuente: InterpretaciÃƒÂ³n libre obtenida de  ",
+    "body": "La laguna natural de Sulluscocha, permite la irrigacion continua de los cultivos y el desarrollo de una actividad ganadera (en este caso, un burro en una parte de los pastizales inundados). Distinguimos la presencia de coniferas (muy comunes en la region de Cajamarca, pero raras en otras partes del Peru), eucaliptos y carrizales. Fuente: Interpretacion libre obtenida de  ",
     "imgs": [
       "http://qhapaq-nan.org/images/stories/com_form2content/p1/f32/2.jpg",
       "http://qhapaq-nan.org/images/stories/com_form2content/p1/f32/22.jpg"
@@ -154,7 +155,7 @@ var lista_hijos = [
   {
     "id": 8,
     "url": "http://qhapaq-nan.org/erosion-du-qhapaq-nan.html",
-    "tit": "ErosiÃƒÆ’Ã‚Â³n del Qhapaq ÃƒÆ’Ã¢â‚¬Ëœan en Namora",
+    "tit": "Erosion del Qhapaq Ñan en Namora",
     "subti": "Cajamarca",
     "body": "Suplantado por el camino asfaltado situado a unos cientos de metros, secciÃƒÂ³n Nan Qhapaq del valle que ha sido  abandonada por la comunidad. El resto de la ruta es erosionado por la lluvia, las inundaciones fluviales y los deslizamientos de tierra. Los pequeÃƒÂ±os puentes de madera son inestables o destruidos.  Fuente: InterpretaciÃƒÂ³n libre obtenida de ",
     "imgs": [
@@ -195,7 +196,7 @@ var lista_hijos = [
     "url": "http://qhapaq-nan.org/chemin-cochamarca-san-marcos.html",
     "tit": "A mitad de Camino entre Cochamarca y  San Marcos",
     "subti": "Cajamarca",
-    "body": "Camino rural (camino de herradura), que probablemente ha suplantado Qhapaq Ãƒâ€˜an,  de 4 a 6 metros, que ha conservado su rectitud y sus fronteras de vegetaciÃƒÂ³n (tierra, maguey y eucalipto). Esta secciÃƒÂ³n ya no conecta dos puntos de la carretera de asfalto en Matara - San Marcos, a travÃƒÂ©s de las zonas agrÃƒÂ­colas de la llanura y que constituye un acceso directo para los residentes. El uso es de moderado a bajo y se fotografiÃƒÂ³ el segmento aguas arriba.  Fuente: InterpretaciÃƒÂ³n libre obtenida de  ",
+    "body": "Camino rural (camino de herradura), que probablemente ha suplantado Qhapaq Ñan,  de 4 a 6 metros, que ha conservado su rectitud y sus fronteras de vegetaciÃƒÂ³n (tierra, maguey y eucalipto). Esta secciÃƒÂ³n ya no conecta dos puntos de la carretera de asfalto en Matara - San Marcos, a travÃƒÂ©s de las zonas agrÃƒÂ­colas de la llanura y que constituye un acceso directo para los residentes. El uso es de moderado a bajo y se fotografiÃƒÂ³ el segmento aguas arriba.  Fuente: InterpretaciÃƒÂ³n libre obtenida de  ",
     "imgs": [
       "http://qhapaq-nan.org/images/stories/com_form2content/p1/f68/2.jpg"
     ],
