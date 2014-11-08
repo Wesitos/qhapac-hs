@@ -493,7 +493,8 @@ code em{
 }
 
 div.team-photo.lazyloaded > img {
-    width: 180px;
+    width: 220px;
+
     margin-top: 10px;
 }
 
