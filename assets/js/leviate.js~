@@ -57,8 +57,7 @@
 										}
 									]
 						    		}
-						  	},
-							  kmllayer:{
+						  	},kmllayer:{
 							    options:{
 							      url: "http://acastemoreno.me/kapaq.kml",
 							      opts:{
