@@ -6,6 +6,7 @@
     }).responseText;
 
     var lista_data = JSON.parse(raw_data);
+    var selected_pin = 0;
     /* ==========================================================================
        Detect Handheld Devices
        ============================================================================= */
@@ -16,18 +17,19 @@
        ============================================================================= */
     $('html').toggleClass( 'handheld', $.isHandheld );
     var pagliteraria="";
-    var datlit = [0].concat( lista_data.slice(1).map( function(data){
+    var datlit =  lista_data.map( function(data){
         return {
             pageid: "#literatura"+data.id,
             poptool: "<h5>"+ data.tit  + "<\h5>",
             body_txt: data.subti
         }
-    }));
+    });
     var icoco = "assets/img/road.png"
+    /* // Ya no es necesario
     for (var k=1; k < lista_data.length; k++){
         $(datlit[k].pageid).fadeOut();
     };
-
+    */
     $(window).load(function() {
         /* ==========================================================================
            ScrollSpy
@@ -64,17 +66,19 @@
                         return data.lon;
                     });
                     var idx= ys.length;
-                    var indc=1;
                     $('#flecha-right').click(function(){
-
-                        if(indc<xs.length){
+                        $(datlit[selected_pin].pageid).fadeOut();
+                        selected_pin = (selected_pin + 1) %xs.length;
+                        /*
+                          if(indc<xs.length){
                             indc++;
                         } else
                         {indc=1;}
+                        */
                         var options={
                             map:{
                                 options:{
-                                    center:[xs[indc-1], ys[indc-1]],
+                                    center:[xs[selected_pin-1], ys[selected_pin-1]],
                                     zoom: 15,
                                     mapTypeControl: false,
                                     styles: [
@@ -87,21 +91,25 @@
                                 }
                             }
                         }
-
+                        console.log("selected_pin", selected_pin);
                         $('.google-maps').gmap3( options );
+                        $(datlit[selected_pin].pageid).fadeIn(1300);
                     });
 
 
                     $('#flecha-left').click(function(){
-
+                        $(datlit[selected_pin].pageid).fadeOut();
+                        selected_pin = (selected_pin - 1 ) % xs.length;
+                        /*
                         if(indc===1){
                             indc=xs.length;
                         } else
                         {indc = indc-1;}
+                        */
                         var options={
                             map:{
                                 options:{
-                                    center:[xs[indc-1], ys[indc-1]],
+                                    center:[xs[selected_pin-1], ys[selected_pin-1]],
                                     zoom: 15,
                                     mapTypeControl: false,
                                     styles: [
@@ -113,9 +121,10 @@
                                     ]
                                 }
                             }
-                        }
+                        };
+                        console.log("selected_pin",selected_pin);
                         $('.google-maps').gmap3( options );
-
+                        $(datlit[selected_pin].pageid).fadeIn(1300);
 
                     } );
 
@@ -158,6 +167,7 @@
                                 },
                                 events:{
                                     click: function(marker, event, context){
+                                        console.log(context);
                                         if(datlit[0]===0)
                                             $('#literatura0').fadeOut(1);
                                         datlit[0]=context.data;
