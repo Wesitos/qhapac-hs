@@ -135,7 +135,7 @@
                                 }
                             },kmllayer:{
                                 options:{
-                                    url: "http://acastemoreno.me/kapaq.kml",
+                                    url: "http://acastemoreno.me/data/kapaq.kml",
                                     opts:{
                                         suppressInfoWindows: true
                                     }
